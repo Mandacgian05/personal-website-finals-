@@ -70,7 +70,7 @@ const loading = ref(false);
 /** * CRITICAL FIX: Define the API_URL here.
  * For Codespaces testing, use the full port 3000 URL. 
  */
-const API_URL = 'https://stunning-halibut-4j577645qpgxcqj97-3000.app.github.dev/api/guestbook';
+const API_URL = 'https://personal-website-finals-ducc.vercel.app/api/guestbook';
 
 const handleImageUpload = (e) => {
   const file = e.target.files[0];
